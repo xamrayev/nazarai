@@ -1,0 +1,2 @@
+# nazarai
+Nazar AI
