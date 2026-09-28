@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NazarAI — Sunʼiy intellekt laboratoriyasi</title>
+  <meta name="description" content="NazarAI — sunʼiy intellekt, EdTech va IT infratuzilma yechimlarini ishlab chiquvchi muhandislik laboratoriyasi. LiteCode, Cyber LMS, UMID, UZPDF va boshqa loyihalar." />
+  <meta name="theme-color" content="#000000" />
+  <meta property="og:title" content="NazarAI — Koʻradigan intellekt" />
+  <meta property="og:description" content="Sunʼiy intellekt, taʼlim texnologiyalari va IT infratuzilma loyihalari laboratoriyasi." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Asosiy mazmunga oʻtish</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="logo" aria-label="NazarAI — bosh sahifa">
+        <canvas class="logo__eye" id="logoEye" aria-hidden="true"></canvas>
+        <span class="logo__word">Nazar<b>AI</b></span>
+      </a>
+      <nav class="nav__links" aria-label="Asosiy menyu">
+        <a href="#lab">Laboratoriya</a>
+        <a href="#products">Loyihalar</a>
+        <a href="#team">Jamoa</a>
+        <a href="#process">Jarayon</a>
+      </nav>
+      <a href="#contact" class="btn btn--primary nav__cta magnetic">Hamkorlik</a>
+      <button class="nav__burger" id="burger" aria-label="Menyuni ochish" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <a href="#lab">Laboratoriya</a>
+      <a href="#products">Loyihalar</a>
+      <a href="#team">Jamoa</a>
+      <a href="#process">Jarayon</a>
+      <a href="#contact" class="btn btn--primary">Hamkorlik</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <canvas class="hero__eye" id="heroEye" aria-label="NazarAI zarrachali koʻz logotipi" role="img"></canvas>
+      <div class="hero__inner wrap">
+        <p class="eyebrow reveal"><span class="dot"></span> Sunʼiy intellekt laboratoriyasi · Namangan</p>
+        <h1 class="display reveal">
+          <span class="line">Intellekt</span>
+          <span class="line">koʻrishdan</span>
+          <span class="line"><em>boshlanadi.</em></span>
+        </h1>
+        <div class="hero__foot reveal">
+          <p class="lead">NazarAI — taʼlim, xavfsizlik va infratuzilma uchun sunʼiy intellektga asoslangan mahsulotlarni loyihalovchi va ishlab chiquvchi muhandislik laboratoriyasi.</p>
+          <div class="hero__actions">
+            <a href="#products" class="btn btn--primary magnetic">Loyihalarni koʻrish</a>
+            <a href="#team" class="btn btn--ghost">Jamoa bilan tanishish <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__hint" aria-hidden="true">
+        <span>Kursorni harakatlantiring — koʻz sizni kuzatadi</span>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats wrap" aria-label="Raqamlarda NazarAI">
+      <div class="stat reveal">
+        <div class="stat__num"><span class="count" data-to="1.6" data-dec="1">0</span><small>mlrd soʻm</small></div>
+        <p>Jamoa ishtirok etgan loyihalarning umumiy qiymati</p>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num"><span class="count" data-to="2">0</span></div>
+        <p>Davlat granti loyihalariga rahbarlik</p>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num"><span class="count" data-to="3">0</span><small>PhD</small></div>
+        <p>Fizika, pedagogika va texnika fanlari boʻyicha falsafa doktorlari</p>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num"><span class="count" data-to="6">0</span></div>
+        <p>EdTech va IT yoʻnalishidagi mahsulotlar</p>
+      </div>
+    </section>
+
+    <!-- ============ MANIFESTO / LAB ============ -->
+    <section class="manifesto wrap" id="lab">
+      <div class="split">
+        <h2 class="h-lg reveal">Nazar —<br />bu eʼtibor,<br />anglash va<br /><em>masʼuliyat.</em></h2>
+        <div class="split__body reveal">
+          <p class="label">Manifest</p>
+          <p class="body-xl">Oʻzbek tilida “nazar” — qarash, eʼtibor va baho. Biz sunʼiy intellektni aynan shunday koʻramiz: odamni kuzatuvchi emas, uni tushunuvchi va unga xizmat qiluvchi tizim.</p>
+          <p class="body">Laboratoriyamiz ilmiy tadqiqot va muhandislik amaliyotini birlashtiradi. Fizika, pedagogika va texnika fanlari doktorlari dasturchilar, tarmoq va robototexnika muhandislari bilan bir stol atrofida ishlaydi — gʻoyadan ishlaydigan mahsulotgacha.</p>
+        </div>
+      </div>
+
+      <ol class="caps">
+        <li class="cap reveal">
+          <span class="cap__n">01</span>
+          <h3>AI integratsiya</h3>
+          <p>Til modellari, kompyuter koʻrish va avtomatik baholash tizimlarini mavjud jarayonlarga joriy etish.</p>
+        </li>
+        <li class="cap reveal">
+          <span class="cap__n">02</span>
+          <h3>Raqamli egizaklar</h3>
+          <p>Jismoniy obyekt va jarayonlarning raqamli modellarini yaratish, monitoring va prognozlash.</p>
+        </li>
+        <li class="cap reveal">
+          <span class="cap__n">03</span>
+          <h3>Tizim arxitekturasi</h3>
+          <p>Axborot tizimlarini loyihalash, masshtablash va biznes jarayonlarini avtomatlashtirish.</p>
+        </li>
+        <li class="cap reveal">
+          <span class="cap__n">04</span>
+          <h3>EdTech platformalar</h3>
+          <p>Avtomatik tekshiruvli dasturlash muhitlari, LMS va raqamli savodxonlik kurslari.</p>
+        </li>
+        <li class="cap reveal">
+          <span class="cap__n">05</span>
+          <h3>Tarmoq va xavfsizlik</h3>
+          <p>Korporativ tarmoq infratuzilmasi, qurilmalarni masofadan boshqarish va kiberxavfsizlik.</p>
+        </li>
+        <li class="cap reveal">
+          <span class="cap__n">06</span>
+          <h3>Robototexnika</h3>
+          <p>Sensorlar, boshqaruv tizimlari va AI bilan ishlovchi robototexnik yechimlar.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>LiteCode</span><i>▲</i><span>WEB Playground</span><i>▲</i><span>Cyber LMS</span><i>▲</i><span>Bemor AI</span><i>▲</i><span>UMID</span><i>▲</i><span>UZPDF</span><i>▲</i>
+        <span>LiteCode</span><i>▲</i><span>WEB Playground</span><i>▲</i><span>Cyber LMS</span><i>▲</i><span>Bemor AI</span><i>▲</i><span>UMID</span><i>▲</i><span>UZPDF</span><i>▲</i>
+      </div>
+    </div>
+
+    <!-- ============ PRODUCTS ============ -->
+    <section class="products wrap" id="products">
+      <div class="section-head">
+        <h2 class="h-lg reveal">Biz qurayotgan<br /><em>mahsulotlar.</em></h2>
+        <div class="section-head__side reveal">
+          <p class="label">Portfel</p>
+          <p class="body">Taʼlim texnologiyalari va IT infratuzilma — ikki yoʻnalishda oltita mahsulot. Har biri real muammodan boshlangan.</p>
+          <div class="filters" role="tablist" aria-label="Loyiha yoʻnalishi">
+            <button class="chip is-active" role="tab" aria-selected="true" data-filter="all">Barchasi</button>
+            <button class="chip" role="tab" aria-selected="false" data-filter="edtech">EdTech</button>
+            <button class="chip" role="tab" aria-selected="false" data-filter="it">IT loyihalar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid">
+        <!-- LiteCode -->
+        <article class="product product--wide reveal" data-cat="edtech">
+          <div class="product__text">
+            <div class="product__meta"><span class="tag">EdTech</span><span class="status status--live">Faol</span></div>
+            <h3>LiteCode</h3>
+            <p>Mavzu boʻyicha dasturlash masalalari va ularni tekshiruvchi testlarni avtomatik yaratuvchi platforma. Oʻqituvchi mavzuni tanlaydi — tizim topshiriq, yechim va test toʻplamini tayyorlaydi.</p>
+            <ul class="feats"><li>AI masala generatori</li><li>Avtomatik test yaratish</li><li>Darhol baholash</li></ul>
+          </div>
+          <div class="viz viz--code" aria-hidden="true">
+            <div class="viz__bar"><i></i><i></i><i></i><span>litecode / sikllar / masala-07</span></div>
+            <pre class="code"><code><span class="c">// Mavzu: Sikllar · Qiyinlik: ●●○</span>
+<span class="k">def</span> <span class="f">juft_yigindi</span>(n):
+    s = <span class="n">0</span>
+    <span class="k">for</span> i <span class="k">in</span> <span class="f">range</span>(<span class="n">2</span>, n + <span class="n">1</span>, <span class="n">2</span>):
+        s += i
+    <span class="k">return</span> s<span class="caret"></span></code></pre>
+            <div class="tests">
+              <div class="test"><b>✓</b> juft_yigindi(10) == 30</div>
+              <div class="test"><b>✓</b> juft_yigindi(1) == 0</div>
+              <div class="test"><b>✓</b> juft_yigindi(100) == 2550</div>
+              <div class="test test--score">12 / 12 test · 100 ball</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- WEB -->
+        <article class="product reveal" data-cat="edtech">
+          <div class="viz viz--web" aria-hidden="true">
+            <div class="web__pane">
+              <div class="web__tab">index.html</div>
+              <pre><code><span class="k">&lt;button</span> <span class="f">class</span>=<span class="s">"btn"</span><span class="k">&gt;</span>
+  Salom!
+<span class="k">&lt;/button&gt;</span></code></pre>
+            </div>
+            <div class="web__pane web__pane--out">
+              <div class="web__tab">natija</div>
+              <div class="web__preview"><span class="web__btn">Salom!</span></div>
+              <div class="web__check">✓ Topshiriq 4/5 bajarildi</div>
+            </div>
+          </div>
+          <div class="product__text">
+            <div class="product__meta"><span class="tag">EdTech</span><span class="status status--live">Faol</span></div>
+            <h3>WEB</h3>
+            <p>Veb-dasturlashni oʻrganuvchilar uchun mavzulashtirilgan mashq va topshiriqlarni avtomatik tekshiruvchi online playground.</p>
+          </div>
+        </article>
+
+        <!-- Cyber LMS -->
+        <article class="product reveal" data-cat="edtech">
+          <div class="viz viz--cyber" aria-hidden="true">
+            <svg viewBox="0 0 120 140" class="shield">
+              <path d="M60 6 L108 24 V66 C108 98 86 122 60 134 C34 122 12 98 12 66 V24 Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M42 70 L55 83 L80 56" fill="none" stroke="#ffb829" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="shield__check"/>
+            </svg>
+            <ul class="mods">
+              <li><span>Parol gigiyenasi</span><i style="--p:100%"></i></li>
+              <li><span>Fishingni aniqlash</span><i style="--p:72%"></i></li>
+              <li><span>Shaxsiy maʼlumotlar</span><i style="--p:40%"></i></li>
+            </ul>
+          </div>
+          <div class="product__text">
+            <div class="product__meta"><span class="tag">EdTech</span><span class="status status--live">Faol</span></div>
+            <h3>Cyber LMS</h3>
+            <p>Aholini kibersavodxonlikka oʻrgatuvchi taʼlim platformasi: interaktiv kurslar, amaliy stsenariylar va sertifikatlash.</p>
+          </div>
+        </article>
+
+        <!-- UMID -->
+        <article class="product product--wide reveal" data-cat="it">
+          <div class="product__text">
+            <div class="product__meta"><span class="tag tag--amber">IT loyiha</span><span class="status status--live">Faol</span></div>
+            <h3>UMID</h3>
+            <p><b>Universal Model ID</b> — kompyuter qurilmasining barcha tarkibiy qismlarini hisobga olgan holda yagona identifikator beruvchi va uni internet orqali nazorat qilish platformasi.</p>
+            <ul class="feats"><li>Apparat qismlar inventari</li><li>Masofaviy monitoring</li><li>Oʻzgarishlar haqida ogohlantirish</li></ul>
+          </div>
+          <div class="viz viz--umid" aria-hidden="true">
+            <div class="umid__id">UMID <b id="umidCode">7F3A‑C219‑E04B</b></div>
+            <div class="umid__tree">
+              <div class="node"><span>CPU</span><em>Intel Core i7‑12700</em><i class="ok"></i></div>
+              <div class="node"><span>RAM</span><em>2 × 16 GB DDR4</em><i class="ok"></i></div>
+              <div class="node"><span>SSD</span><em>NVMe 512 GB</em><i class="ok"></i></div>
+              <div class="node"><span>MB</span><em>B660M · S/N 4C8…</em><i class="ok"></i></div>
+              <div class="node node--warn"><span>NIC</span><em>MAC oʻzgardi</em><i class="warn"></i></div>
+            </div>
+            <div class="umid__ping"><span></span> 128 qurilma onlayn</div>
+          </div>
+        </article>
+
+        <!-- UZPDF -->
+        <article class="product reveal" data-cat="it">
+          <div class="viz viz--pdf" aria-hidden="true">
+            <div class="pdf__tools"><i>T</i><i>✎</i><i>▭</i><i>⤓</i></div>
+            <div class="pdf__page">
+              <div class="pdf__line w80"></div>
+              <div class="pdf__line w60"></div>
+              <div class="pdf__line w90 hl"></div>
+              <div class="pdf__line w70"></div>
+              <div class="pdf__sign">Imzo</div>
+            </div>
+          </div>
+          <div class="product__text">
+            <div class="product__meta"><span class="tag tag--amber">IT loyiha</span><span class="status status--live">Faol</span></div>
+            <h3>UZPDF</h3>
+            <p>PDFgear asosidagi online PDF tahrirlagich: matn tahriri, izoh, birlashtirish, konvertatsiya va imzo — brauzerning oʻzida.</p>
+          </div>
+        </article>
+        <!-- Bemor AI -->
+        <article class="product product--soon reveal" data-cat="edtech">
+          <div class="viz viz--ecg" aria-hidden="true">
+            <svg viewBox="0 0 300 80" preserveAspectRatio="none">
+              <path class="ecg" d="M0 40 H70 L80 40 L88 22 L96 58 L104 12 L112 66 L120 40 H180 L190 40 L198 28 L206 50 L214 40 H300" fill="none" stroke="#8052ff" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+            <span class="soon">Tez kunda</span>
+          </div>
+          <div class="product__text">
+            <div class="product__meta"><span class="tag">EdTech · Tibbiyot</span><span class="status status--soon">Tez kunda</span></div>
+            <h3>Bemor AI</h3>
+            <p>Tibbiyot yoʻnalishidagi sunʼiy intellekt loyihasi. Tafsilotlar tez orada eʼlon qilinadi.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ TEAM ============ -->
+    <section class="team wrap" id="team">
+      <div class="section-head">
+        <h2 class="h-lg reveal">Laboratoriya<br /><em>jamoasi.</em></h2>
+        <div class="section-head__side reveal">
+          <p class="label">Odamlar</p>
+          <p class="body">Uch nafar falsafa doktori va amaliyotchi muhandislar. Ilmiy yondashuv va ishlab chiqarish tajribasi bir jamoada.</p>
+        </div>
+      </div>
+
+      <article class="lead-card reveal">
+        <div class="lead-card__art">
+          <canvas class="mono" data-initials="XX" aria-hidden="true"></canvas>
+          <span class="lead-card__badge">CEO</span>
+        </div>
+        <div class="lead-card__body">
+          <p class="role">Asoschi · Bosh ijrochi direktor</p>
+          <h3>Xamrayev Xurshidbek<br />Komiljon oʻgʻli</h3>
+          <p class="body">Muhandis-dasturchi. Sunʼiy intellekt integratsiyasi va axborot tizimlarini loyihalashtirish boʻyicha professional.</p>
+          <ul class="facts">
+            <li><b>2</b><span>davlat grantida loyiha rahbari</span></li>
+            <li><b>1,6 mlrd</b><span>soʻmlik loyihalarda ishtirok</span></li>
+            <li><b>Sobiq</b><span>“InTech NamMQI” IT loyihalari korxonasi bosh dasturchisi</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <div class="people">
+        <article class="person reveal">
+          <div class="person__art"><canvas class="mono" data-initials="YA" aria-hidden="true"></canvas></div>
+          <p class="role">Project Manager · PhD</p>
+          <h3>Yokubbayev Anasxon Akmalxonovich</h3>
+          <p>Fizika fanlari boʻyicha falsafa doktori. Raqamli egizak (digital twin) tizimlari mutaxassisi.</p>
+        </article>
+        <article class="person reveal">
+          <div class="person__art"><canvas class="mono" data-initials="MI" aria-hidden="true"></canvas></div>
+          <p class="role">System Architect · PhD</p>
+          <h3>Mirsaidov Ibrohimbek Tolib oʻgʻli</h3>
+          <p>Axborot tizimlarini loyihalash va avtomatlashtirish mutaxassisi. Pedagogika fanlari boʻyicha falsafa doktori.</p>
+        </article>
+        <article class="person reveal">
+          <div class="person__art"><canvas class="mono" data-initials="SM" aria-hidden="true"></canvas></div>
+          <p class="role">Robototexnika · PhD</p>
+          <h3>Shamshitdinov Maqsudbek</h3>
+          <p>Robototexnika mutaxassisi. Texnika fanlari boʻyicha falsafa doktori.</p>
+        </article>
+        <article class="person reveal">
+          <div class="person__art"><canvas class="mono" data-initials="AA" aria-hidden="true"></canvas></div>
+          <p class="role">Mobil dasturchi</p>
+          <h3>Aliyev Aʼzamjon Ayub oʻgʻli</h3>
+          <p>iOS va Android uchun mobil ilovalar ishlab chiqish.</p>
+        </article>
+        <article class="person reveal">
+          <div class="person__art"><canvas class="mono" data-initials="BD" aria-hidden="true"></canvas></div>
+          <p class="role">Web dasturchi</p>
+          <h3>Boqijonov Dadaxon</h3>
+          <p>Veb-platformalar va interfeyslarni ishlab chiqish.</p>
+        </article>
+        <article class="person reveal">
+          <div class="person__art"><canvas class="mono" data-initials="AS" aria-hidden="true"></canvas></div>
+          <p class="role">Tarmoq muhandisi</p>
+          <h3>Aliyev Shavkatjon</h3>
+          <p>Tarmoq infratuzilmasi, serverlar va ulanish xavfsizligi.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="process wrap" id="process">
+      <div class="section-head">
+        <h2 class="h-lg reveal">Gʻoyadan<br /><em>ishlaydigan tizimgacha.</em></h2>
+        <div class="section-head__side reveal">
+          <p class="label">Jarayon</p>
+          <p class="body">Har bir loyiha toʻrt bosqichdan oʻtadi. Ilmiy asoslash — birinchi, kod — keyin.</p>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><span>01</span><h3>Tadqiqot</h3><p>Muammoni oʻrganish, foydalanuvchilar bilan suhbat, ilmiy manbalar tahlili.</p></div>
+        <div class="step reveal"><span>02</span><h3>Loyihalash</h3><p>Tizim arxitekturasi, maʼlumotlar modeli va AI komponentlarini tanlash.</p></div>
+        <div class="step reveal"><span>03</span><h3>Ishlab chiqish</h3><p>Qisqa iteratsiyalar, avtomatik testlar va har hafta namoyish.</p></div>
+        <div class="step reveal"><span>04</span><h3>Joriy etish</h3><p>Oʻrnatish, oʻqitish, monitoring va doimiy qoʻllab-quvvatlash.</p></div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <canvas class="contact__field" id="contactField" aria-hidden="true"></canvas>
+      <div class="wrap contact__inner">
+        <p class="label reveal">Aloqa</p>
+        <h2 class="display display--sm reveal">Keling, birga<br /><em>koʻraylik.</em></h2>
+        <div class="split contact__split">
+          <p class="body-xl reveal">Taʼlim muassasasi, davlat tashkiloti yoki biznes boʻlasizmi — gʻoyangizni ayting, biz uni ishlaydigan mahsulotga aylantiramiz.</p>
+          <form class="form reveal" id="contactForm" novalidate>
+            <label class="field"><span>Ismingiz</span><input name="name" required autocomplete="name" placeholder="Ism Familiya" /></label>
+            <label class="field"><span>Email yoki telefon</span><input name="contact" required placeholder="siz@misol.uz" /></label>
+            <label class="field field--full"><span>Loyiha haqida</span><textarea name="msg" rows="3" required placeholder="Qisqacha tasvirlab bering…"></textarea></label>
+            <div class="form__foot">
+              <button type="submit" class="btn btn--primary magnetic">Soʻrov yuborish</button>
+              <p class="form__note" id="formNote" role="status"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer wrap">
+    <div class="footer__top">
+      <a href="#top" class="logo logo--lg" aria-label="NazarAI">
+        <canvas class="footer__eye" id="footerEye" aria-hidden="true"></canvas>
+        <span class="logo__word">Nazar<b>AI</b></span>
+      </a>
+      <div class="footer__cols">
+        <div>
+          <p class="label label--muted">Laboratoriya</p>
+          <a href="#lab">Manifest</a><a href="#team">Jamoa</a><a href="#process">Jarayon</a>
+        </div>
+        <div>
+          <p class="label label--muted">EdTech</p>
+          <a href="#products">LiteCode</a><a href="#products">WEB</a><a href="#products">Cyber LMS</a><a href="#products">Bemor AI</a>
+        </div>
+        <div>
+          <p class="label label--muted">IT loyihalar</p>
+          <a href="#products">UMID</a><a href="#products">UZPDF</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year">2026</span> NazarAI. Barcha huquqlar himoyalangan.</span>
+      <span>Namangan, Oʻzbekiston</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/eye.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
